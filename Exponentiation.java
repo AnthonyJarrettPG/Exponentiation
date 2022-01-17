@@ -54,9 +54,7 @@ public class Exponentiation {
 		}
 
 		ans += temp;
-		// are we at the input.exponent? If not can we use values from our geometric sequence to total it?
-		// Find difference between current exponent and input.exponent...
-
+	
 		int difference = input.exponent - exponent;
 
 		while(difference >= 1) {
